@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+
+}
+
+
+/*-------container left-----------*/
+
+.container-left {
+    width: 40vw;
+    height: 40vh;
+    margin: 30px 30px 50px 50px;
+    padding: 50px;
+    line-height: 30px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to top right, #021b79, #086ae2);
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: rem;
+    min-height: 85vh;
+    min-width: 40vw;
+    box-shadow: 9px 12px 24px 12px rgb(160, 147, 147);
+    position: fixed;
+    transition: 1s;
+
+}
+
+.container-left:hover {
+    transform: translateX(40px);
+
+}
+
+.container-left-son {
+    position: static;
+}
+
+
+.profile {
+    width: 210px;
+    box-shadow: 8px 3px 4px 2px #086ae2;
+    border-radius: 100%;
+
+}
+
+.portfolio {
+    margin: 20px;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.name {
+    margin: 10px;
+    font-size: 25px;
+    color: #086be4;
+    text-align: center;
+
+}
+
+.office {
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.links {
+    position: relative;
+    top: 5px;
+    padding:0%;
+    justify-content: center;
+    font-size: 0;
+
+}
+
+.tecnology {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+
+}
+
+.tecnology img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.reserve {
+    margin-top: 0px;
+    font-size: 9px;
+    font-weight: 200;
+    color: gainsboro;
+    margin: 0;
+    padding: 0;
+
+}
+
+.social .linkedin, .github, .instagram, .whatsapp {
+    width: 25px;
+    border: none;
+    align-items: center;
+    margin-right: 10px;
+    transition: 0.4s;
+
+
+}
+
+.social img:hover {
+    transform: translateY(-7px);
+
+}
+
+.github {
+    border-radius: 80%;
+}
+
+
+/*-------container right---------------------------------------*/
+
+.container-right {
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    align-items: center;
+    margin: 25px;
+    left: 50%;
+
+}
+
+.all-skills {
+    bottom: 40px;
+    position: relative;
+
+}
+
+.soft {
+    margin-top: 30px;
+    color: #086be4;
+    font-weight: 900;
+
+}
+
+.culture {
+    font-weight: 300;
+}
+
+.hard {
+    margin-top: 30px;
+    color: #086be4;
+    font-weight: 900;
+}
+
+.project {
+    margin-top: 30px;
+    color: #086be4;
+    font-weight: 900;
+}
+
+p {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 95%;
+    margin: 20px 30px 30px 0;
+
+}
+
+span {
+    font-weight: 500
+}
+
+
+
+
+/*-------responsividade------mediaQUERY-----*/
+
+
+
+@media screen and (max-width: 900px) {
+
+    .container-left {
+        width: 84vw;
+        height: auto;
+        margin: 20px;
+        padding: 10px;
+        line-height: 20px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: linear-gradient(to top right, #021b79, #086ae2);
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+        border-top-left-radius: 5rem;
+        border-bottom-left-radius: rem;
+        min-height: auto;
+        box-shadow: 9px 12px 24px 12px rgb(122 122 122);
+        position: relative;
+        
+    }
+
+   
+    .container-left-son {
+        position: relative;
+        margin: 10px;
+    }
+
+    .profile {
+        width: 150px;
+
+    }
+
+    .portfolio {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .name {
+        margin-top: 10px;
+
+    }
+
+    .office {
+        margin-top: 10px;
+    }
+
+    .links {
+        margin: 0;
+    }
+
+    .social {
+        margin: 0;
+        padding: 0;
+    }
+
+    .reserve {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-right {
+        width: auto;
+        height: 55vw;
+        display: absolute;
+        position: absolute;
+        align-items: center;
+        margin: 10px;
+        left: 5%;
+        padding: 10px;
+    }
+
+    .all-skills {
+        margin: 5px;
+        padding: 5px;
+    }
+
+}
